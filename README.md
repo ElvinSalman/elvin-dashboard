@@ -1,157 +1,115 @@
-# Admin Panel React - Free React Tailwind Admin Dashboard Template
+Elvin Dashboard — Modern React + Tailwind Admin Panel
 
-Admin Panel is a free and open-source admin dashboard template built on **React and Tailwind CSS**, providing developers with everything they need to create a comprehensive, data-driven back-end, 
-dashboard, or admin panel solution for upcoming web projects.
+Elvin Dashboard is a modern, free, and open-source admin panel template built with React, TypeScript, and Tailwind CSS.
+It’s designed to help developers quickly create beautiful, data-driven dashboards, admin panels, or analytics tools — with clean UI and scalable architecture.
 
-With Admin Panel, you get access to all the necessary dashboard UI components, elements, and pages required to build a feature-rich and complete dashboard or admin panel. Whether you're building dashboard or admin panel for a complex web application or a simple website, Admin Panel is the perfect solution to help you get up and running quickly.
+📋 Overview
 
-![Admin Panel React.js Dashboard Preview](./banner.png)
+Elvin Dashboard provides all the essential UI components and layouts for building powerful admin dashboards and control panels.
+It’s lightweight, fully responsive, and built with modern development best practices.
 
-## Overview
+⚙️ Built With
 
-Admin Panel provides essential UI components and layouts for building feature-rich, data-driven admin dashboards and control panels. It's built on:
+⚛️ React 18 (Vite)
 
-- React 18 (create-react-app)
-- TypeScript
-- Tailwind CSS
+🧠 TypeScript
 
-### Quick Links
-- [✨ Visit Website](https://Admin Panel.com)
-- [📄 Documentation](https://Admin Panel.com/docs)
-- [⬇️ Download](https://Admin Panel.com/download)
-- [🖌️ Figma Design File (Community Edition)](https://www.figma.com/community/file/1214477970819985778)
-- [⚡ Get PRO Version](https://Admin Panel.com/pricing)
+🎨 Tailwind CSS
 
-### Demos
-- [Free Version](https://free-react-demo.Admin Panel.com/)
-- [Pro Version](https://react-demo.Admin Panel.com)
+🔄 React Router v6
 
-### Other Versions
-- [HTML Version](https://github.com/Admin Panel/Admin Panel-free-tailwind-dashboard-template)
-- [Next.js Version](https://github.com/Admin Panel/free-nextjs-admin-dashboard)
-- [Vue.js Version](https://github.com/Admin Panel/vue-tailwind-admin-dashboard)
+🌙 Dark Mode support
 
+🌐 Live Demo
 
-## Installation
+🔗 Visit Demo
+ (replace with actual link if hosted)
 
-### Prerequisites
-To get started with Admin Panel, ensure you have the following prerequisites installed and set up:
+📦 Installation
+Prerequisites
 
-- Node.js 18.x or later (recommended to use Node.js 20.x or later)
+Before you begin, make sure you have:
 
-### Cloning the Repository
-Clone the repository using the following command:
+Node.js v18+ (recommended: v20+)
 
-```bash
-git clone https://github.com/Admin Panel/free-react-tailwind-admin-dashboard.git
-```
+npm or yarn
 
-> Windows Users: place the repository near the root of your drive if you face issues while cloning.
+🧰 Clone and Setup
+# Clone the repository
+git clone https://github.com/elvinsalmanov/elvin-dashboard.git
 
-1. Install dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-    > On `npm` some included packages can cause peer-deps issue with React 18 while installing.
-    >
-    > Use the `--legacy-peer-deps` flag, at the end of the installation command, as a workaround for that.
+# Move into the folder
+cd elvin-dashboard
 
-2. Start the development server:
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
+# Install dependencies
+npm install
+# or
+yarn install
 
-## Components
+# Start the development server
+npm run dev
+# or
+yarn dev
 
-Admin Panel is a pre-designed starting point for building a web-based dashboard using React.js and Tailwind CSS. The template includes:
+🧩 Features
 
-- Sophisticated and accessible sidebar
-- Data visualization components
-- Prebuilt profile management and 404 page
-- Tables and Charts(Line and Bar)
-- Authentication forms and input elements
-- Alerts, Dropdowns, Modals, Buttons and more
-- Can't forget Dark Mode 🕶️
+✅ Fully responsive layout
+✅ Beautiful sidebar navigation
+✅ Reusable UI components (Buttons, Modals, Alerts, Tables, Charts)
+✅ Dark / Light themes
+✅ Authentication pages
+✅ Charts and statistics using ApexCharts
+✅ Profile & settings pages
+✅ Easy customization with Tailwind
 
-All components are built with React and styled using Tailwind CSS for easy customization.
+🧠 Components
 
-## Feature Comparison
+Elvin Dashboard includes pre-built and reusable components for rapid development:
 
-### Free Version
-- 1 Unique Dashboard
-- 30+ dashboard components
-- 50+ UI elements
-- Basic Figma design files
-- Community support
+Sidebar & Topbar navigation
 
-### Pro Version
-- 5 Unique Dashboards: Analytics, Ecommerce, Marketing, CRM, Stocks (more coming soon)
-- 400+ dashboard components and UI elements
-- Complete Figma design file
-- Email support
+Dashboard analytics pages
 
-To learn more about pro version features and pricing, visit our [pricing page](https://Admin Panel.com/pricing).
+Profile and settings
 
-## Changelog
+Authentication (Login / Register)
 
-### Version 2.0.0 - [February 2025]
-A major update with comprehensive redesign and modern React patterns implementation.
+Charts (Line, Bar, Pie)
 
-#### Major Improvements
-- Complete UI redesign with modern React patterns
-- New features: collapsible sidebar, chat, and calendar
-- Improved performance and accessibility
-- Updated data visualization using ApexCharts
+Tables & lists
 
-#### Key Features
-- Redesigned dashboards (Ecommerce, Analytics, Marketing, CRM)
-- Enhanced navigation with React Router integration
-- Advanced tables with sorting and filtering
-- Calendar with drag-and-drop support
-- New UI components and improved existing ones
+Modal windows and alerts
 
-#### Breaking Changes
-- Updated sidebar component API
-- Migrated charts to ApexCharts
-- Revised authentication system
+Dark mode toggle
 
-[Read more](https://Admin Panel.com/docs/update-logs/react) on this release.
+🧾 Folder Structure
+elvin-dashboard/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── context/
+│   ├── assets/
+│   ├── utils/
+│   └── main.tsx
+├── public/
+└── tailwind.config.js
 
-### Version 1.3.7 - [June 20, 2024]
+🧰 Scripts
+Command	Description
+npm run dev	Start local development server
+npm run build	Build production bundle
+npm run preview	Preview production build
+npm run lint	Lint and check code quality
+🆚 Version History
+v1.0.0 — Initial Release (October 2025)
 
-#### Enhancements
+✨ Modern UI with Tailwind CSS
 
-1. Remove Repetition of DefaultLayout in every Pages
-2. Add ClickOutside Component for reduce repeated functionality in Header Message, Notification and User Dropdowns.
+⚛️ React 18 + Vite setup
 
-### Version 1.3.6 - [Jan 31, 2024]
+🌗 Dark mode support
 
-#### Enhancements
+📊 Charts, Tables, Widgets
 
-1. Integrate flatpickr in [Date Picker/Form Elements]
-2. Change color after select an option [Select Element/Form Elements].
-3. Make it functional [Multiselect Dropdown/Form Elements].
-4. Make best value editable [Pricing Table One/Pricing Table].
-5. Rearrange Folder structure.
-
-### Version 1.2.0 - [Apr 28, 2023]
-
-- Add Typescript in Admin Panel React.
-
-### Version 1.0.0 - Initial Release - [Mar 13, 2023]
-
-- Initial release of Admin Panel React.
-
-
-
-## License
-
-Admin Panel React.js Free Version is released under the MIT License.
-
-## Support
-
-If you find this project helpful, please consider giving it a star on GitHub. Your support helps us continue developing and maintaining this template.
+🧩 Reusable components
