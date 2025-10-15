@@ -1,9 +1,9 @@
-Elvin Dashboard — Modern React + Tailwind Admin Panel
+# Elvin Dashboard — Modern React + Tailwind Admin Panel
 
 Elvin Dashboard is a modern, free, and open-source admin panel template built with React, TypeScript, and Tailwind CSS.
 It’s designed to help developers quickly create beautiful, data-driven dashboards, admin panels, or analytics tools — with clean UI and scalable architecture.
 
-📋 Overview
+# 📋 Overview
 
 Elvin Dashboard provides all the essential UI components and layouts for building powerful admin dashboards and control panels.
 It’s lightweight, fully responsive, and built with modern development best practices.
@@ -84,15 +84,25 @@ Dark mode toggle
 
 🧾 Folder Structure
 elvin-dashboard/
+
 ├── src/
+
 │   ├── components/
+
 │   ├── pages/
+
 │   ├── layouts/
+
 │   ├── context/
+
 │   ├── assets/
+
 │   ├── utils/
+
 │   └── main.tsx
+
 ├── public/
+
 └── tailwind.config.js
 
 🧰 Scripts
